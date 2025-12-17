@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "../components/Container";
 import projectsData from "@/app/Data/projects.json";
+import { Metadata } from "next";
 
 type Tool = { name: string; icon?: string };
 type Project = {
@@ -12,6 +13,12 @@ type Project = {
   src: string;
   year: string;
   tools: Tool[];
+};
+
+export const metadata: Metadata = {
+  title: "Archive | Art Alfred Bernales",
+  description:
+    "I help brands grow through bold visuals and thoughtful digital experiences that drive results.",
 };
 
 export default function Archive() {

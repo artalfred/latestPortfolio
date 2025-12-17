@@ -6,8 +6,9 @@ import blurd from "../public/background/blurd.avif";
 import Footer from "./footer";
 
 export const metadata: Metadata = {
-  title: "My Site",
-  description: "Video background demo",
+  title: "Art Alfred Bernales",
+  description:
+    "I help brands grow through bold visuals and thoughtful digital experiences that drive results.",
 };
 
 const inter = Inter({
