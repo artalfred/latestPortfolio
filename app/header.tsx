@@ -19,7 +19,7 @@ export default function Header() {
               </h3>
             </div>
 
-            <div className="2xl:hidden lg:hidden md:hidden sm:block block">
+            <div className="2xl:hidden lg:hidden md:hidden sm:block block 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-3 pl-3">
               <Image src={Logo} alt="Bernales.logo.aa" width={50} height={50} />
             </div>
           </div>
