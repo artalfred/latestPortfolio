@@ -5,7 +5,6 @@ type Props = {
   bgColor: string;
   style: string;
   link: string;
-  fontSize: string;
 };
 
 export default function Button({ title, bgColor, style, link }: Props) {
