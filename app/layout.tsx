@@ -4,6 +4,7 @@ import "./globals.css";
 
 import blurd from "../public/background/blurd.avif";
 import Footer from "./footer";
+import Header from "./header";
 
 export const metadata: Metadata = {
   title: "Art Alfred Bernales",
@@ -35,12 +36,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${firaSansCondensed.variable} antialiased`}
       >
+        <Header />
         <video className="bg-video" autoPlay muted loop playsInline>
           <source src="/background/default.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        {/* Site content */}
         <div>{children}</div>
         <Footer />
       </body>

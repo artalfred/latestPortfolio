@@ -32,7 +32,6 @@ export default async function Home() {
               title="Get a quote"
               bgColor="main-btn-color"
               style="main--btn"
-              fontSize="text-lg"
               link="/"
             ></Button>
           </div>
