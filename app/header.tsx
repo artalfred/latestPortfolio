@@ -29,9 +29,7 @@ export default function Header() {
           <div className="flex items-center 2xl:gap-6 lg:gap-6 md:gap-6 sm:gap-2 gap-2">
             <Button
               title="Connect with me"
-              bgColor="main-btn-color"
-              style="main--btn"
-              fontSize="text-md"
+              style="main--btn main-btn-color"
               link="/"
             ></Button>
             <Menu />

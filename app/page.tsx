@@ -30,8 +30,7 @@ export default async function Home() {
           <div className="flex justify-center">
             <Button
               title="Get a quote"
-              bgColor="main-btn-color"
-              style="main--btn"
+              style="main--btn main-btn-color"
               link="/"
             ></Button>
           </div>
@@ -74,9 +73,7 @@ export default async function Home() {
       <div className="flex justify-center mt-16">
         <Button
           title="Explore All Project Archive"
-          bgColor="main-btn-color"
-          style="main--btn"
-          fontSize="text-lg"
+          style="main--btn main-btn-color"
           link="/archive"
         ></Button>
       </div>
