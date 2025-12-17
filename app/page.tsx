@@ -1,65 +1,91 @@
+import Button from "./components/Button";
+import Container from "./components/Container";
 import Image from "next/image";
+import Content from "./components/Content";
+import LogoSlider from "./components/LogoSlider";
+import VAStuffingHub from "../public/Logo/VAStaffingHub.svg";
+import NLBB from "../public/Logo/NextLevelBusinessbrokers.svg";
+import TheSetupPro from "../public/Logo/TheSetupPro.svg";
+import DCC from "../public/Logo/DCC.svg";
+import Projects from "./components/Projects";
+import JobExperience from "./components/JobExperience";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <Container>
+      <main className="hero flex justify-center items-center ">
+        <div className="grid gap-8 justify-center items-center">
+          <div className="grid 2xl:gap-6 md:gap-4 sm:gap-4 gap-4">
+            <h1 className="text-center leading-none ">Design that reveals.</h1>
+            <h1 className="text-center leading-none">Code that scales.</h1>
+          </div>
+
+          <div className="flex justify-center">
+            <Content
+              style="text-center"
+              content="I help brands grow through bold visuals and thoughtful digital experiences that drive results."
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
+
+          <div className="flex justify-center">
+            <Button
+              title="Get a quote"
+              bgColor="main-btn-color"
+              style="main--btn"
+              fontSize="text-lg"
+              link="/"
+            ></Button>
+          </div>
         </div>
       </main>
-    </div>
+
+      <div className="section grid gap-10">
+        <div className="flex justify-center">
+          <Content
+            style="text-center"
+            content="I’ve collaborated with industry leaders and valued clients."
+          />
+        </div>
+
+        <div className="2xl:flex lg:flex md:hidden sm:hidden hidden md:grid-cols-2 sm:grid-cols-2 grid-cols-2 sm:gap-4 2xl:gap-12 lg:gap-12 md:gap-8 gap-4 justify-center">
+          <div className="flex justify-center">
+            <Image src={VAStuffingHub} alt="Logo" width={170} height={20} />
+          </div>
+          <div className="flex justify-center">
+            <Image src={NLBB} alt="Logo" width={170} height={20} />
+          </div>
+          <div className="flex justify-center">
+            <Image src={TheSetupPro} alt="Logo" width={170} height={20} />
+          </div>
+          <div className="flex justify-center">
+            <Image src={DCC} alt="Logo" width={170} height={20} />
+          </div>
+        </div>
+
+        <div className="2xl:hidden lg:hidden md:block sm:block block overflow-x-hidden">
+          <LogoSlider />
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-center">Explore the projects I’ve taken on</h2>
+      </div>
+      <Projects />
+
+      <div className="flex justify-center mt-16">
+        <Button
+          title="Explore All Project Archive"
+          bgColor="main-btn-color"
+          style="main--btn"
+          fontSize="text-lg"
+          link="/archive"
+        ></Button>
+      </div>
+
+      {/* JOB EXPERIENCE */}
+      <div className="2xl:mt-40 lg:mt-40 md:mt-20 sm:mt-20 mt-20">
+        <JobExperience />
+      </div>
+    </Container>
   );
 }

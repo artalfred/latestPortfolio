@@ -1,0 +1,311 @@
+[
+  {
+    "name": "Next Level Business Brokers",
+    "madeAt": "NLBB",
+    "description": "A high-performance, conversion-focused platform designed for a leading business brokerage firm. The site emphasizes trust, expertise, and results through a clean, professional design and strategic content architecture.",
+    "link": "https://nextlevelbusinessbrokers.com/",
+    "ProjectNameLink": "nextlevelbusinessbrokers.com",
+    "src": "/Projects/NLBB.svg",
+    "year": "2025",
+    "tools": [
+      {
+        "name": "USA",
+        "icon": "/Projects/USA_Flag.svg"
+      },
+      {
+        "name": "Wordpress"
+      },
+      {
+        "name": "Website"
+      },
+      {
+        "name": "UX/UI Design"
+      },
+      {
+        "name": "Customized Design"
+      }
+    ]
+  },
+  {
+    "name": "De Castro Consulting",
+    "madeAt": "De Castro Consulting",
+    "description": "Built a modern, high‑performance website that presents the advantages of using an Employer of Record (EOR) for global expansion. The design emphasizes clarity, professionalism, and encourages visitors to connect with experts for guidance.",
+    "link": "https://decastroconsulting.ph/",
+    "ProjectNameLink": "decastroconsulting.ph",
+    "src": "/Projects/DCC.svg",
+    "year": "2024",
+    "tools": [
+      {
+        "name": "Philippines",
+        "icon": "/Projects/PH_Flag.svg"
+      },
+      {
+        "name": "WordPress"
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Customized Theme"
+      }
+    ]
+  },
+  {
+    "name": "De Castro Law Firm",
+    "madeAt": "De Castro Consulting",
+    "description": "I designed and developed a fast, professional website for a legal and business solutions firm in the Philippines. The site highlights their services, builds trust through a clean and modern design, and provides easy access to consultations and information for entrepreneurs and businesses.",
+    "link": "https://decastrolegalfirm.com/",
+    "ProjectNameLink": "decastrolegalfirm.com",
+    "src": "/Projects/DCLAW.svg",
+    "year": "2024",
+    "tools": [
+      {
+        "name": "Philippines",
+        "icon": "/Projects/PH_Flag.svg"
+      },
+      {
+        "name": "Framer"
+      },
+      {
+        "name": "UX/UI Design"
+      },
+      {
+        "name": "Customized Theme"
+      }
+    ]
+  },
+  {
+    "name": "Pottery Pro",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://artfulpotteryprofrontend.netlify.app/",
+    "ProjectNameLink": "art.potterypro.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "SCSS"
+      },
+      {
+        "name": "Motion Design"
+      },
+      {
+        "name": "tailwindcss"
+      }
+    ]
+  },
+  {
+    "name": "Thriveluxe",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://thriveluxe.netlify.app/",
+    "ProjectNameLink": "art.thriveluxe.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "SCSS"
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "AccuDaily",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://dazzling-sawine-9aec7e.netlify.app/",
+    "ProjectNameLink": "art.accudaily.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "SCSS"
+      },
+      {
+        "name": "NewYorkTimes API"
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "Bayanihan Healthcare",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://artalfred.github.io/Bayanihan-Healthcare/",
+    "ProjectNameLink": "art.bayanihanhealthcare.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "Javascript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "SCSS"
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "TimeLuxe",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://github.com/artalfred/TimeLuxe",
+    "ProjectNameLink": "art.timelixe.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "JavaScrip"
+      },
+      {
+        "name": "CSS"
+      }
+    ]
+  },
+  {
+    "name": "Anatoli Services",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://artalfred.github.io/Anatoli-Services/",
+    "ProjectNameLink": "art.anatoliservices.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "Luxury Watch",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://github.com/artalfred/luxury-watch",
+    "ProjectNameLink": "art.luxurywatch.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2023",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "Rock Paper Scissors",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://artalfred.github.io/rock-paper-scissors/",
+    "ProjectNameLink": "art.rockpaperscissors.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2022",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ]
+  },
+  {
+    "name": "Animal Hunt, Fun Games",
+    "madeAt": "Personal Project",
+    "description": "I created a fast, modern website for my client to help them showcase their growing real estate business. My focus was on delivering a clean, professional design with excellent performance, ensuring the site not only looks great but also helps them attract clients and scale their business.",
+    "link": "https://artalfred.github.io/tree/",
+    "ProjectNameLink": "art.animalhunt.com",
+    "src": "/Projects/VASTAFFINGHUB.svg",
+    "year": "2020",
+    "tools": [
+      {
+        "name": ""
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ]
+  }
+]

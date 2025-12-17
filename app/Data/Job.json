@@ -1,0 +1,57 @@
+[
+  {
+    "year": "2024 - Present",
+    "name": "Web Developer | AI Automation",
+    "description": "Maintain and improve several company websites through regular updates and performance-focused enhancements. Collaborate directly with shareholders and the marketing team to implement web development and AI automation solutions that support key business goals.",
+    "link": "https://nextlevelbusinessbrokers.com/",
+    "tools": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML/SCSS"
+      },
+      {
+        "name": "WordPress"
+      },
+      {
+        "name": "Framer"
+      },
+      {
+        "name": "GHL"
+      }
+    ]
+  },
+  {
+    "year": "2023 - 2024",
+    "name": "Web Developer Intern · De Castro Consulting",
+    "description": "Built a complete website from the ground up and maintained critical company websites through regular updates and performance improvements. Worked closely with the Managing Partner and marketing team to ensure alignment with business objectives.",
+    "link": "https://decastroconsulting.ph/",
+    "tools": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "WordPress"
+      },
+      {
+        "name": "UX/UI Design"
+      },
+      {
+        "name": "SCSS"
+      }
+    ]
+  }
+]
