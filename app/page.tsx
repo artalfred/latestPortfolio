@@ -66,7 +66,9 @@ export default async function Home() {
       </div>
 
       <div>
-        <h2 className="text-center">Explore the projects I’ve taken on</h2>
+        <h2 className="text-center google-sans-flex">
+          Explore the projects I’ve taken on
+        </h2>
       </div>
       <Projects />
 
