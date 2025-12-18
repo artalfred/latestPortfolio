@@ -3,6 +3,7 @@ import Button from "./components/Button";
 import Menu from "./components/Menu";
 
 import Logo from "@/public/Logo/Logo.svg";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -10,14 +11,16 @@ export default function Header() {
       <div className=" w-full 2xl:px-8 lg:px-8 md:px-8 sm:p-2 p-2 rounded-full bg-sky-700/25 backdrop-blur-lg flex justify-between items-center nav">
         <div className="grid">
           <div className="grid">
-            <div className="2xl:block lg:block md:block sm:hidden hidden 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-4 pl-4">
-              <h3 className="2xl:text-2xl lg:text-2xl md:text-xl sm:text-lg text-lg font-medium">
-                Fred Bernales
-              </h3>
-              <h3 className="2xl:text-sm lg:text-lg md:text-md sm:text-sm text-sm">
-                Web Developer · AI Automation
-              </h3>
-            </div>
+            <Link href="/">
+              <div className="2xl:block lg:block md:block sm:hidden hidden 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-4 pl-4">
+                <h3 className="2xl:text-2xl lg:text-2xl md:text-xl sm:text-lg text-lg font-medium">
+                  Fred Bernales
+                </h3>
+                <h3 className="2xl:text-sm lg:text-lg md:text-md sm:text-sm text-sm">
+                  Web Developer · AI Automation
+                </h3>
+              </div>
+            </Link>
 
             <div className="2xl:hidden lg:hidden md:hidden sm:block block 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-3 pl-3">
               <Image src={Logo} alt="Bernales.logo.aa" width={50} height={50} />
