@@ -49,15 +49,19 @@ export default function JobExperience() {
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-0 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-1 lg:row-span-2 lg:row-start-1">
           <div className="grid gap-4">
-            <div className="grid gap-2">
-              <h2>Experience</h2>
-              <h3 className="text-2xl">Front End Developer</h3>
+            <div className="grid 2xl:gap-4 lg:gap-4 md:gap-4 sm:gap-1 gap-1">
+              <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-bold">
+                Experience
+              </h3>
+              <h4 className="2xl:text-xl lg:text-xl md:text-lg sm:text-lg text-lg">
+                Front End Developer
+              </h4>
             </div>
 
-            <h6 className="text-md text-gray-400">
+            <p className="text-md text-gray-400">
               I create inclusive, pixel-perfect websites that combine
               functionality with exceptional design.
-            </h6>
+            </p>
           </div>
         </div>
 
@@ -72,14 +76,18 @@ export default function JobExperience() {
               >
                 <div className="job--card 2xl:flex lg:flex md:grid sm:grid grid gap-6 items-start p-6 rounded-lg  hover:bg-sky-500/10 group-hover:opacity-40 hover:opacity-100 transition-all duration-200 ease-in-out">
                   <div className="2xl:w-[20%] lg:w-[30%] md:w-full w-full">
-                    <h4 className="uppercase text-gray-400">{job.year}</h4>
+                    <h6 className="text-sm font-medium uppercase text-gray-400">
+                      {job.year}
+                    </h6>
                   </div>
 
                   <div className="2xl:w-[80%] lg:w-[70%] md:w-full sm:w-full w-full text-gray-400">
                     <div className="grid gap-2">
                       <div className="flex items-center gap-2">
-                        <h3 className="text-gray-50 text-lg">{job.name}</h3>
-                        <div className="mt-2">
+                        <h4 className="text-gray-50 text-lg font-medium">
+                          {job.name}
+                        </h4>
+                        <div className="mt-1">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="blue"
@@ -96,14 +104,14 @@ export default function JobExperience() {
                           </svg>
                         </div>
                       </div>
-                      <p className="text-md">{job.description}</p>
+                      <p className="text-xs font-light">{job.description}</p>
 
                       <div className="w-full">
                         <div className="flex flex-wrap items-center gap-x-2 gap-y-2 mt-2">
                           {job.tools.map((tool) => (
                             <div key={tool.name}>
                               <div className="box inline-flex items-center gap-2.5 px-4 py-2 rounded-full text-teal-300 bg-teal-400/10">
-                                <h3 className="text-sm">{tool.name}</h3>
+                                <h6 className="text-xs">{tool.name}</h6>
                               </div>
                             </div>
                           ))}

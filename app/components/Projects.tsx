@@ -17,7 +17,7 @@ export default async function Projects() {
 
   return (
     <div>
-      {data.slice(0, 3).map((project) => (
+      {data.slice(0, 2).map((project) => (
         <Link
           href={project.link}
           key={project.name}
@@ -38,7 +38,9 @@ export default async function Projects() {
                 </div>
 
                 <div className="grid 2xl:gap-4 lg:gap-4 md:gap-6 sm:gap-4 gap-4 2xl:mt-8 lg:mt-8 md:mt-6 sm:mt-4 mt-4">
-                  <h2>{project.name}</h2>
+                  <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-bold">
+                    {project.name}
+                  </h3>
                   <div className="grid gap-6">
                     <Description
                       style="text-start"

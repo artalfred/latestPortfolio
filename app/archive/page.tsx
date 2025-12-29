@@ -26,7 +26,7 @@ export default function Archive() {
 
   return (
     <Container>
-      <main className="mt-15">
+      <main className="2xl:mt-40 lg:mt-30 md:mt-30 sm:mt-30 mt-30">
         <div>
           <Link href="/">
             <div className="flex gap-2 items-center">
@@ -56,7 +56,7 @@ export default function Archive() {
             id="content"
             className="mt-12 w-full border-collapse text-left"
           >
-            <thead className="sticky top-0 z-10 border-slate-300/10  px-6 py-5 backdrop-blur">
+            <thead className="sticky top-0 border-slate-300/10  px-6 py-5 backdrop-blur z-0">
               <tr>
                 <th className="py-4 pr-8 text-sm font-semibold text-slate-200">
                   Year
@@ -126,7 +126,7 @@ export default function Archive() {
                       {project.tools.slice(1).map((tool) => (
                         <div key={tool.name}>
                           <div className="box inline-flex items-center gap-2.5 px-4 py-2 rounded-full text-teal-300 bg-teal-400/10">
-                            <h3 className="text-[12px]">{tool.name}</h3>
+                            <h6 className="text-[12px]">{tool.name}</h6>
                           </div>
                         </div>
                       ))}

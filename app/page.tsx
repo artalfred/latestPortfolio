@@ -14,16 +14,17 @@ export default async function Home() {
   return (
     <Container>
       <main className="hero flex justify-center items-center ">
-        <div className="grid gap-8 justify-center items-center">
-          <div className="grid 2xl:gap-6 md:gap-4 sm:gap-4 gap-4">
-            <h1 className="text-center leading-none ">Design that reveals.</h1>
-            <h1 className="text-center leading-none">Code that scales.</h1>
+        <div className="grid 2xl:gap-8 lg:gap-8 md:gap-6 sm:gap-4 gap-4 justify-center items-center">
+          <div>
+            <h1 className="text-center leading-none font-black 2xl:text-7xl lg:text-6xl md:text-6xl sm:text-4xl text-3xl">
+              Reveal. Scale. Impact.
+            </h1>
           </div>
 
           <div className="flex justify-center">
             <Content
-              style="text-center"
-              content="I help brands grow through bold visuals and thoughtful digital experiences that drive results."
+              style="text-center text-xl"
+              content="Helping brands grow through expressive visuals and scalable digital systems."
             />
           </div>
 
@@ -40,7 +41,7 @@ export default async function Home() {
       <div className="section grid gap-10">
         <div className="flex justify-center">
           <Content
-            style="text-center"
+            style="text-center "
             content="I’ve collaborated with industry leaders and valued clients."
           />
         </div>
@@ -65,14 +66,14 @@ export default async function Home() {
         </div>
       </div>
 
-      <div>
-        <h2 className="text-center google-sans-flex">
+      <div className="2xl:mt-16 lg:mt-16 md:mt-10 sm:mt-10 mt-10">
+        <h2 className="text-center 2xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl text-3xl -ml-0.75 font-bold">
           Explore the projects I’ve taken on
         </h2>
       </div>
       <Projects />
 
-      <div className="flex justify-center mt-16">
+      <div className="grid justify-center mt-16">
         <Button
           title="Explore All Project Archive"
           style="main--btn main-btn-color"
@@ -81,7 +82,7 @@ export default async function Home() {
       </div>
 
       {/* JOB EXPERIENCE */}
-      <div className="2xl:mt-40 lg:mt-40 md:mt-20 sm:mt-20 mt-20">
+      <div className="grid justify-center 2xl:mt-40 lg:mt-40 md:mt-20 sm:mt-20 mt-20">
         <JobExperience />
       </div>
     </Container>
