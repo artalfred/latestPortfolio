@@ -66,7 +66,8 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className="2xl:mt-16 lg:mt-16 md:mt-10 sm:mt-10 mt-10">
+      {/* PROJECTS */}
+      <div className="2xl:mt-16 lg:mt-16 md:mt-10 sm:mt-10 mt-10" id="projects">
         <h2 className="text-center 2xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl text-3xl -ml-0.75 font-bold">
           Explore the projects I’ve taken on
         </h2>
@@ -82,7 +83,10 @@ export default async function Home() {
       </div>
 
       {/* JOB EXPERIENCE */}
-      <div className="grid justify-center 2xl:mt-40 lg:mt-40 md:mt-20 sm:mt-20 mt-20">
+      <div
+        className="grid justify-center 2xl:pt-40 lg:pt-40 md:pt-20 sm:pt-20 pt-20"
+        id="experience"
+      >
         <JobExperience />
       </div>
     </Container>

@@ -50,7 +50,7 @@ export default function JobExperience() {
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-1 lg:row-span-2 lg:row-start-1">
           <div className="grid gap-4">
             <div className="grid 2xl:gap-4 lg:gap-4 md:gap-4 sm:gap-1 gap-1">
-              <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-bold">
+              <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-black">
                 Experience
               </h3>
               <h4 className="2xl:text-xl lg:text-xl md:text-lg sm:text-lg text-lg">

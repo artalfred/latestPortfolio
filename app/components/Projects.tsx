@@ -38,7 +38,7 @@ export default async function Projects() {
                 </div>
 
                 <div className="grid 2xl:gap-4 lg:gap-4 md:gap-6 sm:gap-4 gap-4 2xl:mt-8 lg:mt-8 md:mt-6 sm:mt-4 mt-4">
-                  <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-bold">
+                  <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-black">
                     {project.name}
                   </h3>
                   <div className="grid gap-6">

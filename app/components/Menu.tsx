@@ -1,20 +1,14 @@
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
+import { PhoneIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
-import {
-  ArrowPathIcon,
   ChartPieIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
-  SquaresPlusIcon,
 } from "@heroicons/react/24/outline";
 
 const solutions = [
   {
-    name: "Analytics",
+    name: "Blogs",
     description: "Get a better understanding of your traffic",
     href: "#",
     icon: ChartPieIcon,

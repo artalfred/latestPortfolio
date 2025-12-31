@@ -26,29 +26,35 @@ export default function Archive() {
 
   return (
     <Container>
-      <main className="2xl:mt-40 lg:mt-30 md:mt-30 sm:mt-30 mt-30">
+      <main className="2xl:mt-40 lg:mt-40 md:mt-40 sm:mt-40 mt-40">
         <div>
           <Link href="/">
             <div className="flex gap-2 items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="size-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18"
-                />
-              </svg>
+              <div className="flex gap-2 items-center border-b-2 pb-1 border-gray-500 hover:border-gray-300 transition-all duration-300">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m7.49 12-3.75 3.75m0 0 3.75 3.75m-3.75-3.75h16.5V4.499"
+                  />
+                </svg>
 
-              <h6>Art Alfred Bernales</h6>
+                <h6 className="2xl:text-sm lg:text-sm md:text-sm sm:text-sm text-sm font-medium">
+                  Art Alfred Bernales
+                </h6>
+              </div>
             </div>
           </Link>
-          <h2>All Projects</h2>
+          <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-black mt-2">
+            All Projects
+          </h3>
         </div>
 
         <div className="w-full mt-13">
