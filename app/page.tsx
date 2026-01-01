@@ -100,6 +100,7 @@ export default async function Home() {
           title="Explore All Project Archive"
           style="main--btn main-btn-color"
           link="/archive"
+          Icon="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
         ></Button>
       </div>
 
