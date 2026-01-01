@@ -3,7 +3,6 @@ import Button from "./components/Button";
 import Menu from "./components/Menu";
 
 import Logo from "@/public/Logo/Logo.svg";
-import Logo1 from "@/public/Logo/Logo1.svg";
 import Link from "next/link";
 
 export default function Header() {
@@ -13,12 +12,11 @@ export default function Header() {
         <div className="grid">
           <div className="grid">
             <Link href="/">
-              <div className="2xl:block lg:block md:block sm:block block 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-3 pl-3">
+              <div className="2xl:block lg:block md:block sm:block block 2xl:pl-0 lg:pl-0 md:pl-0 sm:pl-0 pl-0">
                 <Image
-                  src={Logo1}
+                  src={Logo}
                   alt="Bernales.logo.aa"
-                  width={120}
-                  height={120}
+                  className="2xl:w-30 lg:w-30 md:w-25 sm:w-25 w-23"
                 />
               </div>
             </Link>
@@ -27,27 +25,30 @@ export default function Header() {
 
         <div>
           <div className="flex items-center 2xl:gap-14 lg:gap-14 md:gap-6 sm:gap-2 gap-4">
-            <ul className="2xl:flex lg:flex md:hidden sm:hidden hidden items-center gap-8 ">
-              <li className="cursor-pointer">Blogs</li>
-              <li className="cursor-pointer">About</li>
-              <Link href="#experience">
+            <ul className="flex items-center gap-8 ">
+              <Link href="/projecs">
+                <li className="cursor-pointer">Blogs</li>
+              </Link>
+              <Link
+                href="#experience"
+                className="2xl:block lg:block md:hidden sm:hidden hidden"
+              >
                 <li className="cursor-pointer">Experience</li>
               </Link>
-              <Link href="#projects">
+              <Link
+                href="#projects"
+                className="2xl:block lg:block md:hidden sm:hidden hidden"
+              >
                 <li className="cursor-pointer">Projects</li>
               </Link>
             </ul>
 
-            <div>
+            <div className="">
               <Button
                 title="Let’s Talk"
                 style="main--btn main-btn-color"
                 link="/"
               ></Button>
-            </div>
-
-            <div className="2xl:hidden lg:hidden md:block sm:block block">
-              <Menu />
             </div>
           </div>
         </div>

@@ -1,35 +1,32 @@
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 import { PhoneIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 import {
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
+  ArrowTurnDownRightIcon,
+  ArrowTurnLeftDownIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
 
 const solutions = [
   {
     name: "Blogs",
-    description: "Get a better understanding of your traffic",
     href: "#",
-    icon: ChartPieIcon,
+    icon: ArrowTurnDownRightIcon,
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    href: "#",
-    icon: CursorArrowRaysIcon,
+    name: "Projects",
+    href: "#projects",
+    icon: ArrowTurnLeftDownIcon,
   },
   {
-    name: "Security",
-    description: "Your customers' data will be safe and secure",
-    href: "#",
-    icon: FingerPrintIcon,
+    name: "Experience",
+    icon: ArrowTurnLeftDownIcon,
   },
 ];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
+// const callsToAction = [
+//   { name: "Watch demo", href: "#", icon: PlayCircleIcon },
+//   { name: "Contact sales", href: "#", icon: PhoneIcon },
+// ];
 
 export default function Menu() {
   return (
@@ -57,30 +54,38 @@ export default function Menu() {
         transition
         className="absolute top-0 right-0 z-10 2xl:mt-25 lg:mt-25 md:mt-20 sm:mt-22 mt-22 bg-transparent transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in 2xl:w-120 lg:w-110 md:w-110 sm:w-full"
       >
-        <div className=" flex-auto overflow-hidden rounded-3xl bg-gray-800 text-sm/6 outline-1 -outline-offset-1 outline-white/10">
+        <div className=" flex-auto overflow-hidden rounded-xl bg-gray-800 text-sm/6 outline-1 -outline-offset-1 outline-white/10">
           <div className="2xl:p-4 lg:p-4 md:p-4 sm:p-2 p-2">
-            {solutions.map((item) => (
-              <div
-                key={item.name}
-                className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-white/5"
-              >
-                <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-700/50 group-hover:bg-gray-700">
-                  <item.icon
-                    aria-hidden="true"
-                    className="size-6 text-gray-400 group-hover:text-white"
-                  />
-                </div>
-                <div>
-                  <a href={item.href} className="font-semibold text-white">
-                    {item.name}
-                    <span className="absolute inset-0" />
-                  </a>
-                  <p className="mt-1 text-gray-400">{item.description}</p>
-                </div>
+            <div className="group relative grid items-center gap-x-6  p-4 hover:bg-white/5">
+              <div className="border-b p-4 flex items-center gap-3">
+                <ArrowTurnDownRightIcon
+                  className="w-7.5 h-7.5"
+                  strokeWidth={2}
+                />
+                <Link href="/" className="font-medium text-white text-xl ">
+                  Blog
+                  <span className="absolute inset-0" />
+                </Link>
               </div>
-            ))}
+
+              <Link
+                href="#projects"
+                className="font-medium text-white text-xl border-b p-4"
+              >
+                Projects
+                <span className="absolute inset-0" />
+              </Link>
+
+              <Link
+                href="#experience"
+                className="font-medium text-white text-xl border-b p-4"
+              >
+                Experience
+                <span className="absolute inset-0" />
+              </Link>
+            </div>
           </div>
-          <div className="grid grid-cols-2 divide-x divide-white/10 bg-gray-700/50">
+          {/* <div className="grid grid-cols-2 divide-x divide-white/10 bg-gray-700/50">
             {callsToAction.map((item) => (
               <a
                 key={item.name}
@@ -94,7 +99,7 @@ export default function Menu() {
                 {item.name}
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </PopoverPanel>
     </Popover>

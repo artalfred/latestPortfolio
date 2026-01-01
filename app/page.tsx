@@ -41,7 +41,7 @@ export default async function Home() {
       <div className="section grid gap-10">
         <div className="flex justify-center">
           <Content
-            style="text-center "
+            style="text-center text-xl"
             content="I’ve collaborated with industry leaders and valued clients."
           />
         </div>
@@ -68,7 +68,7 @@ export default async function Home() {
 
       {/* PROJECTS */}
       <div className="2xl:mt-16 lg:mt-16 md:mt-10 sm:mt-10 mt-10" id="projects">
-        <h2 className="text-center 2xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl text-3xl -ml-0.75 font-bold">
+        <h2 className="text-center 2xl:text-5xl lg:text-5xl md:text-5xl sm:text-2xl text-2xl -ml-0.75 font-black">
           Explore the projects I’ve taken on
         </h2>
       </div>

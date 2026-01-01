@@ -53,14 +53,19 @@ export default function JobExperience() {
               <h3 className="2xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl -ml-0.75 font-black">
                 Experience
               </h3>
-              <h4 className="2xl:text-xl lg:text-xl md:text-lg sm:text-lg text-lg">
-                Front End Developer
+              <h4 className="2xl:text-xl lg:text-xl md:text-lg sm:text-lg text-lg font-midium">
+                Web Developer | Python Specialist
               </h4>
             </div>
 
             <p className="text-md text-gray-400">
-              I create inclusive, pixel-perfect websites that combine
-              functionality with exceptional design.
+              I am an IT graduate and Web Developer & Automation Developer with
+              experience in both professional and bootcamp-based training. I
+              worked as a Web Developer Intern at a law firm for over a year and
+              completed a 4-month KodeGo bootcamp, graduating as Top 1 of the
+              class and earning the Best Capstone Project award. I now
+              specialize in modern web development and Python automation
+              solutions.
             </p>
           </div>
         </div>
