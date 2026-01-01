@@ -28,12 +28,33 @@ export default async function Home() {
             />
           </div>
 
-          <div className="flex justify-center">
-            <Button
-              title="Get a quote"
-              style="main--btn main-btn-color"
-              link="/"
-            ></Button>
+          <div className="flex justify-center mt-3">
+            <a
+              href="/bernales_art_alfred_resume.pdf"
+              download="CV_Bernales_Art_Alfred"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="flex items-center gap-2 rounded-full 2xl:px-6 lg:px-6 md:px-6 sm:px-4 px-4 2xl:py-3 lg:py-3 md:py-3 sm:py-3 py-3 text-md main--btn main-btn-color">
+                Career Summary
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    className="size-4"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625ZM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H8.25Z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </a>
           </div>
         </div>
       </main>
