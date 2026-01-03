@@ -35,7 +35,7 @@ export default async function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="flex items-center gap-2 rounded-full 2xl:px-6 lg:px-6 md:px-6 sm:px-4 px-4 2xl:py-3 lg:py-3 md:py-3 sm:py-3 py-3 text-md main--btn main-btn-color">
+              <button className="flex items-center gap-2 rounded-full 2xl:px-6 lg:px-6 md:px-6 sm:px-4 px-4 2xl:py-3 lg:py-3 md:py-3 sm:py-3 py-3 2xl:text-md lg:text-md md:text-md sm:text-sm text-sm font-medium main--btn main-btn-color">
                 Career Summary
                 <div>
                   <svg

@@ -11,7 +11,7 @@ export default function Button({ title, style, link, Icon }: Props) {
   return (
     <Link href={`${link}`} target="_blank">
       <button
-        className={`flex items-center gap-2 rounded-full 2xl:px-6 lg:px-6 md:px-6 sm:px-4 px-4 2xl:py-3 lg:py-3 md:py-3 sm:py-3 py-3 text-md ${style} `}
+        className={`flex items-center gap-2 rounded-full 2xl:px-6 lg:px-6 md:px-6 sm:px-4 px-4 2xl:py-3 lg:py-3 md:py-3 sm:py-3 py-3 2xl:text-md lg:text-md md:text-md sm:text-sm text-sm font-medium ${style} `}
       >
         {title}
         <div>
